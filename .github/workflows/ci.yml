@@ -2,9 +2,9 @@ name: React CI Pipeline
 
 on:
   push:
-    branches: [ main ]
+    branches: [ dev, stage, main ]
   pull_request:
-    branches: [ main ]
+    branches: [ dev, stage, main ]
 
 jobs:
   build:
