@@ -23,7 +23,7 @@ const App : React.FC = () => {
     // Simulating API call
     setTimeout(() => {
       setUsers([
-        { id: 1, name: "Amit", role: "Admin" },
+        { id: 1, name: "Nandini", role: "Admin" },
         { id: 2, name: "Riya", role: "User" },
         { id: 3, name: "Karan", role: "Manager" }
       ]);
